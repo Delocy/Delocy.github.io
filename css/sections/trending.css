@@ -159,3 +159,9 @@
   right: -2.5px;
   bottom: 12%;
 }
+
+.project__mainTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

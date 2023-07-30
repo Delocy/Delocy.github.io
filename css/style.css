@@ -57,7 +57,7 @@ a {
   align-items: center;
 }
 
-.subtitle {
+.teckStack_subtitle {
   font-size: 40px;
   font-weight: 400;
   font-family: var(--plus-jakarta-sans);
@@ -281,6 +281,10 @@ i:hover {
     display: block;
     top: 47%;
   }
+  
+  .about-us__title {
+    margin-left: 50px;
+  }
 }
 
 @media screen and (max-width: 550px) {
@@ -349,7 +353,7 @@ i:hover {
   .hero-image img {
     width: 100%;
 
-    transform: matrix(1, 0.05, 0, 1.25, 0, 0) !important;
+    /* transform: matrix(1, 0.05, 0, 1.25, 0, 0) !important; */
   }
 }
 
@@ -469,6 +473,10 @@ i:hover {
 
   .trending__content {
     padding: 32px;
+  }
+
+  .project__mainTitle {
+    margin-left: 30px;
   }
 }
 /* END: trending media queries */
