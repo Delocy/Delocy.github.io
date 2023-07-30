@@ -42,7 +42,7 @@
   font-family: var(--plus-jakarta-sans);
   text-transform: uppercase;
   color: var(--secondary-color);
-
+  justify-content: space-evenly;
   cursor: pointer;
 }
 
