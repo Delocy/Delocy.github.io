@@ -296,17 +296,25 @@ i:hover {
   .about-us__button {
     top: 44%;
   }
+
+  .about-us__content {
+    padding: 32px;
+  }
 }
 /* END: about us media queries */
 
 
 /* START: header media querie */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
   .header__nav {
     background: var(--primary-color);
   }
 
   .header__menu {
+    display: none;
+  }
+
+  .navbar__dropdown-menu {
     display: none;
   }
 
@@ -321,7 +329,6 @@ i:hover {
 
     list-style: none;
   }
-}
 
   .header__menu li {
     font-weight: 500;
@@ -332,6 +339,7 @@ i:hover {
     color: var(--secondary-color);
     cursor: pointer;
   }
+}
 
 @media screen and (max-width: 550px) {
   .header__logo {
@@ -458,6 +466,10 @@ i:hover {
 
   .trending__arrow {
     display: none;
+  }
+
+  .project__mainTitle {
+    margin-left: 40px;
   }
 }
 
