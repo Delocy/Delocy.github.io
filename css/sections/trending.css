@@ -104,7 +104,7 @@
 }
 
 .trending-sushi .trending__image {
-  background-image: url("../../assets/japanese_sushi.png");
+  /* background-image: url("../../assets/japanese_sushi.png"); */
 }
 
 .trending-drink .trending__image {
@@ -113,7 +113,7 @@
 
 .trending__image img {
   width: 254px;
-  height: 260px;
+  height: 500px;
   object-fit: contain;
 }
 
@@ -125,11 +125,12 @@
 
 .trending__arrow img {
   object-fit: contain;
+  height: 200px;
 }
 
 .trending__arrow-left {
   left: -2.5px;
-  top: 12%;
+  top: 20%;
 }
 
 .trending__arrow-left img,

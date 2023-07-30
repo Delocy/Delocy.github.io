@@ -16,7 +16,7 @@
   inset: 0;
   width: 100%;
 
-  background-color: var(--primary-color);
+  background-color: var(--color-white);
   z-index: -1;
 }
 
@@ -27,7 +27,7 @@
   font-size: 24px;
   text-transform: uppercase;
   font-family: var(--playfair-display);
-  color: #fff;
+  color: var(--black-200);
   opacity: 0.8;
 }
 
