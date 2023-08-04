@@ -260,6 +260,13 @@ i:hover {
   scrollbar-width: none; /* Firefox */
 }
 
+.dropdown-trigger button {
+  /* Add styles for the button */
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 /* START: about us media queries */
 @media screen and (max-width: 1024px) {
   .about-us {
